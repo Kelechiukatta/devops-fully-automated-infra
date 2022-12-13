@@ -35,8 +35,8 @@ checking once again...
         - Copy the password and login to Jenkins
     - Plugins: Choose Install Suggested Plugings 
     - Provide 
-        - Username: **admin**
-        - Password: **admin**
+        - Username: **kaycekatta**
+        - Password: **kattah1122**
         - Name and Email can also be admin. You can use `admin` all, as its a poc.
     - Continue and Start using Jenkins
 
