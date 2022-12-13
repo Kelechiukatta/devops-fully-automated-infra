@@ -16,9 +16,9 @@
 # Hardware requirements: AWS Linux 2 with mimum t2.micro type instance & port 8080(application port), 9100 (node-exporter port) should be allowed on the security groups
 # setup for the ansible configuration
 sudo yum update –y
-sudo useradd ansadmin
-sudo passwd ansadmin
-sudo echo ansadmin:ansadmin | chpasswd
+sudo useradd anskaycekatta
+sudo passwd anskattah1122
+sudo echo anskaycekatta:katcekatta | chpasswd
 sudo sed -i "s/.*PasswordAuthentication no/PasswordAuthentication yes/g" /etc/ssh/sshd_config
 sudo service sshd restart
 sudo echo "%wheel  ALL=(ALL)       NOPASSWD: ALL" >> /etc/sudoers
