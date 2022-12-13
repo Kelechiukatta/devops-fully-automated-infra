@@ -18,7 +18,7 @@
 sudo yum update –y
 sudo useradd anskaycekatta
 sudo passwd anskattah1122
-sudo echo anskaycekatta:katcekatta | chpasswd
+sudo echo anskattah1122:kattah1122 | chpasswd
 sudo sed -i "s/.*PasswordAuthentication no/PasswordAuthentication yes/g" /etc/ssh/sshd_config
 sudo service sshd restart
 sudo echo "%wheel  ALL=(ALL)       NOPASSWD: ALL" >> /etc/sudoers
